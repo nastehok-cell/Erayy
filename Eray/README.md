@@ -126,6 +126,9 @@ https://medium.com/@amolakapadi/building-a-simple-login-form-with-show-password-
 
 https://www.sammeechward.com/use-context-auth
 
+bookmarks:
+scrimban Fullstack Expressjs kurssi
+
 Categories
 CSS: https://www.youtube.com/watch?v=yYiwxYqQ9vg
 https://www.w3schools.com/css/css_grid.asp
@@ -135,8 +138,6 @@ Typescript ja React: -En ehtinyt
 Database
 sovellettu Scrimban Fullstack Express.js kurssi
 
-
-Favorites: -En ehtinyt
 
 Upload Profiilissa
 Kurssimateriaalien week03 mukaan 
