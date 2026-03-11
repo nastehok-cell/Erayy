@@ -1,0 +1,95 @@
+[
+  {
+    "word": "Pen",
+    "translation": "Qalin",
+    "category": "Noun",
+    "Example": "Qalin gaduud ayaan heystaa"
+  },
+  {
+    "word": "Book",
+    "translation": "Buug",
+    "category": "Noun",
+    "Example": "Kani waa buugeyga"
+  },
+  {
+    "word": "Walk",
+    "translation": "Socod",
+    "category": "Verb",
+    "Example": "Waxaan u socdaa suuqa"
+  },
+  {
+    "word": "Drink",
+    "translation": "Cab",
+    "category": "Verb",
+    "Example": "Cabitaankeyga ayaad cabtay"
+  },
+  {
+    "word": "Beautiful",
+    "translation": "Qurux",
+    "category": "Adjective",
+    "Example": "Gabadhaan aad ayey u qurxoontahay"
+  },
+  {
+    "word": "Rich",
+    "translation": "Taajir",
+    "category": "Ajective",
+    "Example": "Ninkaan waa taajir"
+  },
+  {
+    "word": "Nurse",
+    "translation": "Kalkaaliso",
+    "category": "Profession",
+    "Example": "Kalkaalisooyin ayaa ka shaqeeya isbitaalka"
+  },
+  {
+    "word": "Engineer",
+    "translation": "Injineer",
+    "category": "Profession",
+    "Example": "Iskoolka waxaa laga bartaa injineernimada "
+  },
+  {
+    "word": "Earth",
+    "translation": "Dhulka",
+    "category": "Celestial",
+    "Example": "Bani adan waxay ku noolyihiin dhulka"
+  },
+  {
+    "word": "Sun",
+    "translation": "Qorrax",
+    "category": "Celestial",
+    "Example": "Qooraxda way ifeysaa maanta "
+  },
+  {
+    "word": "Rice",
+    "translation": "Bariis",
+    "category": "Food",
+    "Example": "Waxaan sameeyay bariis iskukaris "
+  },
+  {
+    "word": "Apple",
+    "translation": "Tufaax",
+    "category": "Food",
+  },
+  {
+    "word": "Head",
+    "translation": "Madax",
+    "category": "Body parts",
+    "Example": "Madaxa ayaa i xanuunaayo"
+  },
+  {
+    "word": "Leg",
+    "translation": "Lug",
+    "category": "Body parts",
+  },
+  {
+    "word": "Hello",
+    "translation": "Salaam",
+    "category": "Greetings",
+    "Example": "Waan ku salaamay"
+  },
+  {
+    "word": "Goodbye",
+    "translation": "Nabadgelyo",
+    "category": "Greetings",
+  }
+]

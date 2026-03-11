@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,21 +15,138 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+body {
+  background-size: cover;
+  background-position: bottom center;
 }
 
-body {
-  margin: 0;
+* {
+  text-decoration: none;
+}
+
+
+.form {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 100px;
+  width: 300px;
+  
+}
+
+.searchinput {
+  border-radius: 6px;
+  border: 1px solid rgb(13, 13, 66);
+  padding: 12px 16px;
+  font-size: 16px;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.05);
+  flex-grow: 1;
+  min-width: 400px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.searchform > button {
+  font-family: inter, sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(202, 202, 254);
+  width: 100px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.hometitle {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: center;
+}
+
+.navigation {
+  background: black;
+  font-family: calibri;
+  padding: 15px 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 15px;
+  font-weight: semi-bold;
+  margin-right: 25px;
+}
+
+.logo  {
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+.grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+.categoryCard {
+  border: 1px solid rgb(0, 0, 74);
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgb(192, 192, 192);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.categoryCard .cardPic {
+  width: 120px;   
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contact-card {
+    flex-basis: 225px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.contact-card > h3 {
+    font-weight: 700;
+    font-size: 18px;
 }
 
 h1 {
@@ -54,6 +173,67 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}   
+
+.formscontainer {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: auto;
+}
+
+.inputsstyle{
+  margin-bottom: 15px;
+}
+
+
+.inputsstyle label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.inputsstyle input {
+  width: 93%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formsbutton {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+  padding: 12px;
+  margin: 0 auto;
+  border: none;
+  background-color: #03172c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formsbutton:hover {
+  background-color: #054a93;
+}
+
+.register-link{
+  text-align: center;
+  margin-top: 10px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -65,4 +245,58 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  gap: 20px;              
+}
+
+.search-container {
+  width: 600px;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hometitle {
+  margin-top: 80px;
+}
+
+
+.profile-container {
+  display: flex;
+  gap: 20px; 
+  width: 750px;
+  height: 400px;
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: 0 auto; 
+}
+
+
+.user-container {
+  width: 200px;
+  padding: 20px;
+  background-color: #190162;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.user-container > h2 {
+  margin-bottom: 20px;
+}
+
+.right-container {
+  flex: 1; 
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+}
+
+.upload-button {
+  color:rgb(0, 0, 74)
 }
